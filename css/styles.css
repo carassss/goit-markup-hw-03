@@ -1,20 +1,53 @@
 body {
-background-color: #ffffff;
-font-family: "Roboto", sans-serif;
-color: #434455
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #434455
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol {
+    padding-left: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
 }
 
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 ul {
     list-style-type: none;
 }
+
+address {
+    font-style: normal;
+}
+
+.container {
+max-width: 1158px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
 .page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
     background-color: #ffffff
     ;
 }
+
+.header-container {
+    display: flex;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -28,8 +61,18 @@ ul {
 .header-logo:focus {
     color: #404bbf;
 }
+
 .studio-logo-header {
     color: #2E2F42;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-list {
+    display:flex;
 }
 
 .nav-link-item {
@@ -51,7 +94,10 @@ ul {
 .contacts {
     font-style: normal;
 }
+.contacts-list {
+    display: flex;
 
+}
 .contacts-item {
     font-weight: 400;
     font-size: 16px;
@@ -73,6 +119,9 @@ ul {
     background-color: #2E2F42;
 }
 
+.hero-container {
+    padding: 188px 472px;
+}
 .page-heading {
     font-weight: 700;
     font-size: 56px;
@@ -80,6 +129,8 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .order-btn {
@@ -101,15 +152,19 @@ ul {
     background-color: #404BBF;
 }
 
+.features-container {
+    padding: 120px 156px;
+}
+
 .features-heading {
     color: #ffffff;
     line-height: 1,2;
     font-weight: 500;
     letter-spacing: 0.2em;
     font-size: 20px;
-
-    
+    margin-bottom: 8px;
 }
+
 .features-list-heading {
     font-weight: 500;
     font-size: 20px;
@@ -123,6 +178,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    max-width: 264px;
 }
 
 .team {
@@ -137,6 +193,9 @@ ul {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin: 0 auto;
+    max-width: 162px;
+    padding: 120px 639px 572px 639px;
 }
 
 .team-card-item {
@@ -207,6 +266,7 @@ ul {
 .studio-logo-footer {
     color: #f4f4fd;
 }
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
