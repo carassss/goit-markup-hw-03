@@ -108,6 +108,7 @@ padding-right: 15px;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    padding: 24px 0;
 }
 
 .contacts-item:hover {
@@ -256,10 +257,6 @@ padding-right: 15px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-}
-
-.portfolio-container {
-
 }
 
 .portfolio {
