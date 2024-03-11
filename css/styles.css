@@ -102,8 +102,8 @@ padding-right: 15px;
 .contacts-list {
     display: flex;
     gap: 40px;
-
 }
+
 .contacts-item {
     font-weight: 400;
     font-size: 16px;
@@ -129,6 +129,7 @@ padding-right: 15px;
 .hero {
     padding: 188px 0;
 }
+
 .page-heading {
     font-weight: 700;
     font-size: 56px;
@@ -173,12 +174,10 @@ padding-right: 15px;
 .features-list {
     display: flex;
     gap: 24px;
-
 }
 
 .features-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
-
 }
 
 .visually-hidden {
@@ -188,7 +187,6 @@ padding-right: 15px;
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -243,6 +241,7 @@ padding-right: 15px;
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
+
 .team-card-heading {
     font-weight: 500;
     font-size: 20px;
@@ -264,7 +263,7 @@ padding-right: 15px;
 
 .portfolio {
     background-color: #FCFCFC;
-    padding: 120px 0 120px 0;
+    padding: 120px 0;
 }
 
 .portfolio-heading {
